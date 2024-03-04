@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <title>Create a meme - Genmeme</title>
+    <style>
+      .main-header{
+        position: fixed;
+        /* background-color: rgb(68, 134, 77); */
+        background: linear-gradient(
+          245.59deg,
+          #4d9558 0%,
+          #38703d 28.53%,
+          #133917 75.52%
+        );
+        top: 0;
+      }
+      .logo1{
+        color: white;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="meme-section">
+      <header class="main-header" style="position: fixed">
+        <a href="#" class="logo1">
+          Genmeme
+          <!-- <img src="../assets/images/logo.png" id="logo-img"/> -->
+      </a>
+        <ul class="navlist" id="navlist">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="chooseMeme.html">Generate</a></li>
+          <li><a href="viewmemes.html">View Your Work</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </header>
+      <h1 id="memes-container-text">
+        Choose from 100+ most widely used templates
+      </h1>
+      <div id="memes-container"></div>
+    </section>
+    <script src="../assets/js/scripts.js"></script>
+  </body>
+</html>
